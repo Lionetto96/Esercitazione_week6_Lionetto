@@ -14,3 +14,5 @@ IdCategory int,
 constraint FK_1 foreign key(IdCategory) references Categoria(IdCategory))
 
 insert into Categoria values ('bollette')
+insert into Categoria values ('affitto')
+select * from Categoria
